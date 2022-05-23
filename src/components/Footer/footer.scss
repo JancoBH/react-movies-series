@@ -1,0 +1,18 @@
+.footer {
+  color: #969696;
+
+  .janco {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 5px;
+    text-decoration: none;
+    transition: color 0.4s cubic-bezier(0.6, -0.05, 0.01, 0.99);
+    cursor: pointer;
+
+    &:hover {
+      color: white;
+      cursor: pointer;
+    }
+  }
+}

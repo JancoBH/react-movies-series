@@ -1,7 +1,9 @@
 export const Movies = () => {
   return (
-    <div>
-      <h1>Movies</h1>
-    </div>
+    <>
+      <section className="flex justify-center items-center h-96">
+        <h1 className="text-5xl">Movies</h1>
+      </section>
+    </>
   );
 };

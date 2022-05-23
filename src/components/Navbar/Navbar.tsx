@@ -16,7 +16,7 @@ export const Navbar = () => {
   const isScrolled = useScroll(30);
 
   return (
-    <nav className={`${isScrolled && 'bg-darken'} fixed w-full`}>
+    <nav className={`${isScrolled && 'bg-black'} fixed w-full z-10`}>
       <Disclosure as="nav">
         {({ open }) => (
           <>
